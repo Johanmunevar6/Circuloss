@@ -1,0 +1,35 @@
+/* EL PRIMER CIRCULO QUE SE MUEVE*/
+body{ background-image: "'(https://www.iafe.uba.ar/investigacion/areas-de-investigacion/galaxias-y-universos-a-gran-escala/)"} 
+
+.YU{
+  background-color: black; 
+   width:500px;
+   height:500px;
+  border-radius: 500px;
+  position:relative;
+  top: 70px;
+  left: 70px;
+  animation-name: cambio-color;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+}
+@keyframes cambio-color {0% {bakground-color: black;} 
+                         100% {background-color:purple; top:50px}
+                         50% {background-color:green; left:100px}
+                         30% {background-color:blue; right: 100px}}
+/*EL OTRO CIRCULO*/
+.YO {background-color: black; 
+   width:300px;
+   height:300px;
+  border-radius: 500px;
+  position:relative;
+  top: 100px;
+  left: 100px;
+  animation-name: otro-circulo;
+  animation-duration:2s;
+  animation-iteration-count: infinite;}
+
+@keyframes otro-circulo {0% {background-color: yellow;} 
+                         100% {background-color:red; top:50px}
+                         50% {background-color:green; left:100px}
+                         30% {background-color:blue; right: 100px}}
